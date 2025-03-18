@@ -1,0 +1,24 @@
+@use '@/styles/variables.sass'
+.title,
+.input
+    position: relative
+    z-index: 3
+    margin-right: auto
+    @include variables.base-2m
+    color: rgba(variables.$n2, .76)
+
+.title
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    cursor: pointer
+
+.input
+    flex-grow: 1
+    width: auto
+    height: 20px
+    padding: 0
+    background: transparent
+    border: none
+    resize: none
+    outline: none
