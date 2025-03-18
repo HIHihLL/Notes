@@ -18,7 +18,7 @@ const NoResultSearch = ({ search, isVisible }) => {
                     <div className={styles.title}>OOPS</div>
                 </div>
                 <div className={styles.text}>
-                    No result for “<span>{search}</span>”, try again.
+                    Нет такого результата “<span>{search}</span>”, попробуйте снова.
                 </div>
             </div>
         )
